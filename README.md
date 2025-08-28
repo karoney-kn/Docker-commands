@@ -2,11 +2,11 @@
 
 # Image Management:
 <ul>
-  [1] docker pull <image_name>[:<tag>]: Downloads an image from a Docker registry (e.g., Docker Hub).
-  [2] docker build -t <image_name>:<tag> .: Builds a new Docker image from a Dockerfile in the current directory.
-  [3] docker images: Lists all Docker images on the local system.
-  [4] docker rmi <image_id_or_name>: Removes one or more Docker images.
-  [5] docker push <image_name>[:<tag>]: Uploads a Docker image to a registry.
+  <li>[1] docker pull <image_name>[:<tag>]: Downloads an image from a Docker registry (e.g., Docker Hub).</li>
+  <li>[2] docker build -t <image_name>:<tag> .: Builds a new Docker image from a Dockerfile in the current directory.</li>
+  <li>[3] docker images: Lists all Docker images on the local system.</li>
+  <li>[4] docker rmi <image_id_or_name>: Removes one or more Docker images.</li>
+  <li>[5] docker push <image_name>[:<tag>]: Uploads a Docker image to a registry.</li>
 </ul>
     
 # Container Management:
