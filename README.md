@@ -21,6 +21,12 @@
   <li> docker exec -it <container_id_or_name> <command>: Executes a command inside a running container.</li>
   <li>  docker logs <container_id_or_name>: Fetches the logs of a container.</li>
     
+# Docker Nginx 
+  <li> docker run -p 80:80 nginx : >> you can assign any port you like your nginx to run on</li>
+ <li> docker run -p 4000:80 -d nginx : >> run in background ( -d stands for detach)</li> 
+ <li> docker run -p 8000:80 -d --name dtest nginx : This is for running docker in background with a specified session name</li> 
+
+
 # Other Useful Commands:
 
   <li> docker info: Displays system-wide information about Docker.</li>
