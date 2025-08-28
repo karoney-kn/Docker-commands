@@ -1,13 +1,14 @@
 # Docker-commands
 
 # Image Management:
-
+<ul>
   [1] docker pull <image_name>[:<tag>]: Downloads an image from a Docker registry (e.g., Docker Hub).
   [2] docker build -t <image_name>:<tag> .: Builds a new Docker image from a Dockerfile in the current directory.
   [3] docker images: Lists all Docker images on the local system.
   [4] docker rmi <image_id_or_name>: Removes one or more Docker images.
   [5] docker push <image_name>[:<tag>]: Uploads a Docker image to a registry.
-  
+</ul>
+    
 # Container Management:
 
   [1] docker run [OPTIONS] <image_name> [COMMAND] [ARG...]:  Creates and starts a new container from an image.
